@@ -1,0 +1,29 @@
+.leftimages {
+  padding-right: 4px;
+  max-width: 480px;
+}
+.leftimages__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fefefe !important;
+  padding-bottom: 5px;
+}
+.leftimages__title {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.leftimages__continue {
+  font-size: 12px;
+  width: auto;
+  max-width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2a1b2;
+  transition: all 0.3s ease-in-out;
+}
+.leftimages__continue:hover {
+  border-bottom: 3px solid #f2a1b2;
+}

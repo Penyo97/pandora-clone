@@ -1,0 +1,12 @@
+.footertext {
+  margin: 40px;
+}
+.footertext > p {
+  padding: 3px;
+  font-size: 14px;
+  color: #5d5955;
+}
+.footertext > p:first {
+  padding-bottom: 4px;
+  font-size: 15px;
+}

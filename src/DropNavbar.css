@@ -1,0 +1,17 @@
+.dropnavbar {
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 100;
+}
+.dropnavbar__text {
+  margin: 10px;
+}
+.dropnavbar__text:hover {
+  color: #7b7780;
+}
+.dropnavbar__img {
+  margin: 10px;
+}

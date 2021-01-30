@@ -1,0 +1,9 @@
+.navbar__elements {
+  padding-left: 18px;
+}
+.navbar__elements > p {
+  font-size: 14px;
+}
+.navbar__elements:hover {
+  color: #7b7780;
+}

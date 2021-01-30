@@ -1,0 +1,26 @@
+.textbox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fefefe !important;
+  width: 100%;
+  margin: 15px;
+}
+.textbox__text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.textbox__continue {
+  font-size: 12px;
+  width: auto;
+  max-width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #f2a1b2;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 5px;
+}
+.textbox__continue:hover {
+  border-bottom: 3px solid #f2a1b2;
+}

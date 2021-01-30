@@ -1,0 +1,18 @@
+.carousel{
+    display: flex;
+    text-align: justify;
+    background-color: #f7f7f9;
+    position: relative;
+    z-index: 0;
+}
+.carousel__slider{
+    width: 960px;
+    padding-bottom: 10px !important;
+    background-color: #fefefe !important;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.element.style {
+    width: 286.667px !important;
+    margin-right: 50px;
+}

@@ -1,0 +1,17 @@
+.box {
+  background-color: #fefefe;
+  margin-top: 10px;
+  position: relative;
+  z-index: -10;
+  -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.box__img {
+  height: 260px !important;
+  object-fit: contain;
+}
+.box__price {
+  text-align: center;
+  padding-bottom: 10px;
+}

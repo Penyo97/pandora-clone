@@ -1,0 +1,50 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  margin-top: 158px;
+  align-items: center;
+  background-color: #f7f7f9;
+}
+.banner__img {
+  background-image: url("https://www.pandora.net/-/media/Images/Consumer/campaigns/2020/10-October/Topbanners/Desktop/Q3OCT20_desktop_topbanner_SW_main_collection_960x460.jpg");
+  height: 460px;
+  width: 960px;
+  position: relative;
+}
+.banner__textbox{
+  position: absolute;
+  background-color: #fefefe;
+  opacity: 0.5;
+  max-width: 300px;
+  padding: 10px;
+  text-align: center;
+  left: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  top: 40%;
+  cursor: pointer;
+}
+.banner_continue{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.banner__textbox > .banner_continue > .banner__arrow{
+  background-color: black;
+  opacity: 1 !important;
+  border-radius: 50%;
+  color: #fefefe;
+  margin-left: 5px;
+}
+.banner__title{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f7f7f9;
+}
+.banner__title > div{
+  width: 960px;
+  background-color: #fefefe;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}

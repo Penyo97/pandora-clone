@@ -1,0 +1,26 @@
+.buttonsection{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #f7f7f9;
+}
+.buttonsection > div{
+    width: 960px;
+    background-color: #fefefe;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.button > button{
+    border: 1px solid black;
+    min-width: 260px;
+    border-radius: 0;
+    color: black;
+    padding: 15px;
+}
+.button{
+    width: 100%;
+}
+.button > button:hover{
+    background-color: #665e6b;
+    border: 1px solid black
+}

@@ -1,0 +1,37 @@
+.header_nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: white;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.header__img {
+  height: 120px;
+  object-fit: contain;
+}
+.header__icons {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  object-fit: contain;
+}
+.header__icon {
+  margin-right: 20px;
+}
+.header__icon:hover {
+  color: #7b7780;
+}
+.small {
+  height: 80px !important;
+}
+.header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.header__line{
+  border: 0.2px solid #7b7780;
+}
